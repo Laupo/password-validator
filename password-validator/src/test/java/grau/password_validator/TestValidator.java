@@ -20,13 +20,28 @@ public class TestValidator {
     }
 
     @Test
-    public void isPassword() {
+    public void isNotEasy() {
+
         int strength1 = valid.enoughSecurity("password");
-        int strength2 = valid.enoughSecurity("Hey");
+        int strength2 = valid.enoughSecurity("hey");
         int strength3 = valid.enoughSecurity("heypassword");
-        assertEquals("Expecting 1",1, strength1);
-        assertEquals("Expecting 1",1, strength2);
-        assertEquals("Expecting 2",2, strength3);
+
+        assertEquals(1, strength1);
+        assertEquals(1, strength2);
+        assertEquals(2, strength3);
+
+    }
+
+    @Test
+    public void isHarder() {
+
+        int strength1 = valid.enoughSecurity("password4");
+        int strength2 = valid.enoughSecurity("Passoword4");
+        int strength3 = valid.enoughSecurity("Password 4");
+
+        assertEquals(3, strength1);
+        assertEquals(4, strength2);
+        assertEquals(5, strength3);
 
     }
 }
