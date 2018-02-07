@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Assignment2.iml" filepath="$PROJECT_DIR$/Assignment2.iml" />
-      <module fileurl="file://D:\Users\james\Documents\ENSTA-Bretagne\CI2A\Substitution\Dalhousie\Cours\CSCI3130\Assignment2\password-validator\app.iml" filepath="D:\Users\james\Documents\ENSTA-Bretagne\CI2A\Substitution\Dalhousie\Cours\CSCI3130\Assignment2\password-validator\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/password-validator/password-validator.iml" filepath="$PROJECT_DIR$/password-validator/password-validator.iml" />
     </modules>
   </component>
