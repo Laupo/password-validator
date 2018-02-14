@@ -10,8 +10,12 @@
           <option name="url" value="https://github.com/Laupo/CSCI3130-Demo.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/T-Caines/CSCI3130.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\james\StudioProjects" />
+    <option name="cloneParentDir" value="D:\Users\james\Documents\ENSTA-Bretagne\CI2A\Substitution\Dalhousie\Cours\CSCI3130\Project" />
   </component>
 </application>
